@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="xilinx"  fetch="git://github.com/xilinx"/>
-  <remote name="jrrk"    fetch="git://github.com/jrrk"/>
+  <remote name="jrrk"    fetch="https://github.com/jrrk"/>
 
   <default sync-j="4"/>
 
@@ -16,5 +16,5 @@
   <project remote="xilinx"  revision="rel-v2017.1" name="meta-openamp"        path="sources/meta-openamp"/>
   <project remote="jrrk"    revision="rel-v2017.1" name="meta-xilinx"         path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="rel-v2017.1" name="meta-xilinx-tools"   path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"  revision="rel-v2017.1" name="meta-petalinux"      path="sources/meta-petalinux"/>
+  <project remote="jrrk"    revision="rel-v2017.1" name="meta-petalinux"      path="sources/meta-petalinux"/>
 </manifest>
