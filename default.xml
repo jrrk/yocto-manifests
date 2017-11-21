@@ -5,7 +5,7 @@
 
   <default sync-j="4"/>
 
-  <project remote="jrrk"    revision="rel-v2017.1" name="yocto-scripts"       path="."/>
+  <project remote="xilinx"  revision="rel-v2017.1" name="yocto-scripts"       path="."/>
   <project remote="jrrk"    revision="rel-v2017.1" name="yocto-manifests"     path="sources/manifest"/>
   <project remote="xilinx"  revision="rel-v2017.1" name="meta-openembedded"   path="sources/meta-openembedded"/>
   <project remote="xilinx"  revision="rel-v2017.1" name="meta-qt5"            path="sources/meta-qt5"/>
